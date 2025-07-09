@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #004080;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+.booking-form {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  background: #0073e6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #005bb5;
+}
+
+.confirmation {
+  margin-top: 1rem;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background: #eee;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
