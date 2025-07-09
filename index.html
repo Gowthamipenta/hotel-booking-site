@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hotel Bliss</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hotel Bliss</h1>
+    <p>Your perfect getaway destination</p>
+  </header>
+
+  <main>
+    <section class="booking-form">
+      <h2>Book Your Stay</h2>
+      <form id="bookingForm">
+        <label>
+          Name:
+          <input type="text" id="name" required />
+        </label>
+        <label>
+          Check-in Date:
+          <input type="date" id="checkin" required />
+        </label>
+        <label>
+          Check-out Date:
+          <input type="date" id="checkout" required />
+        </label>
+        <label>
+          Guests:
+          <input type="number" id="guests" min="1" max="10" required />
+        </label>
+        <button type="submit">Book Now</button>
+      </form>
+      <div id="confirmation" class="confirmation"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Hotel Bliss. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
